@@ -1,0 +1,21 @@
+<div class="container">
+
+  <div class="formdiv">
+
+    <form class="mainform" [formGroup]="newuser" (ngSubmit)="senddata()">
+      <div>
+        <h1>Feedback Form</h1>
+      </div>
+      <input type="text" class="inptxt" formControlName="name" name="name" placeholder="Enter Your Full name">
+
+      <input type="text" class="inptxt" formControlName="phone" name="phone" placeholder="Enter your Phone No.">
+      
+      <input type="text" class="inptxt" formControlName="email" name="e-mail" placeholder="Enter your E-mail ID">
+
+      <input type="text" class="inpmsg" formControlName="review" name="review" placeholder="Enter Review">
+      
+      <button type="submit" class="btn">Submit</button>
+
+    </form>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+div a{
+    background-color: #e72929;
+    padding: 0.3rem 1rem;
+    margin: 0.2rem .1rem;
+    border-radius: 10rem;
+    color: whitesmoke;
+    font-weight: 550;
+    opacity: 0.87;
+}
+
+div a:hover{
+    opacity: 1;
+    
+}
+

@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="formdiv">
+      <form class="mainform" [formGroup]="payment" (ngSubmit)="senddata()">
+        <div>
+          <h1>Enter Payment Details</h1>
+        </div>
+        <input type="text" class="inptxt" formControlName="Card_Number" name="Card Number" placeholder="Enter Your Card Number">
+        <input type="text" class="inptxt" formControlName="Card_CVV" name="CVV" placeholder="Enter Your Card CVV">
+        <input type="text" class="inptxt" formControlName="Exp_Date" name="Exp_Date" placeholder="Enter Your Card Expiry Date (MM/YY)">
+        <input type="text" class="inptxt" formControlName="Phone" name="Phone" placeholder="Enter your Phone No.">
+        <input type="text" class="inpmsg" formControlName="Address" name="Address" placeholder="Enter your Home Address">
+        <input type="text" class="inptxt" formControlName="Message" name="Message" placeholder="Any Other Message">
+        <button type="submit" class="btn">Submit</button>
+        <button type="submit" (click)="btnclk()" class="btn">Proceed</button>  
+      </form>
+    </div>
+  </div>
+
+
+
+  <!-- <h1>Payment GateWay</h1>
+<div>
+    <div class="pay-methods">
+        <ul>
+            <li>
+                <a routerLink="/credit-card">Credit Card</a>
+            </li>
+            <li>
+                <a routerLink="/debit-card">Debit Card</a>
+            </li>
+            <li>
+                <a routerLink="/UPI">Via UPI</a>
+            </li>
+            <li>
+                <a routerLink="/Net-Banking">Net Banking</a>
+            </li>
+        </ul>
+    </div>
+    <div class="Payment">
+        Enter Card Number:<input type="text" placeholder="---- ---- ---- ----">
+        <br>
+        Enter Card Hodler's Name: <input type="text" placeholder="First Middle Last">
+    </div>
+</div> -->
+

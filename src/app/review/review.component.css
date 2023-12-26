@@ -1,0 +1,17 @@
+.head{
+    
+    text-align: center;
+    font-size: 3rem;
+}
+
+.list{
+    display: block;
+    margin-left: 25rem;
+    margin-right: 22rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
+    border: 1px solid #be5454;
+   border-radius: 1rem;
+}

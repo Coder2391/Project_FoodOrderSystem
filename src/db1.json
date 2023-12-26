@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "name": "abcd",
+      "phone": "1234567",
+      "email": "abc@gmail.com",
+      "review": "Amazing",
+      "id": 1
+    },
+    {
+      "name": "xyzbc",
+      "phone": "adwsdv",
+      "email": "3142362",
+      "review": "fds vrwca",
+      "id": 2
+    },
+    {
+      "name": "yash",
+      "phone": "nadq93843",
+      "email": "acnbdhb",
+      "review": "SVHSNVWSD",
+      "id": 3
+    }
+  ],
+  "Paydetails": [
+    {
+      "Card_Number": "2341093423552",
+      "Card_CVV": "522",
+      "Exp_Date": "12/23",
+      "Phone": "213233252",
+      "Address": "ahmedabad",
+      "Message": "mome",
+      "id": 1
+    }
+  ]
+}

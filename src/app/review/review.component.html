@@ -1,0 +1,59 @@
+<h1 class="head">Order has been Placed Successfully...!!</h1>
+<ul class="list" *ngFor="let item of collection">
+    <h2>Confirm the Details shared:</h2>
+    <li><b>
+            Card Number: </b>{{item.Card_Number}}
+    </li>
+    <li>
+        <b>Card CVV:</b> {{item.Card_CVV}}
+    </li>
+    <li>
+        <b>Expiry Date:</b> {{item.Exp_Date}}
+    </li>
+    <li>
+        <b> Phone No.</b> {{item.Phone}}
+    </li>
+    <li>
+        <b> Address: </b>{{item.Address}}
+    </li>
+    <li>
+        <b> Message: </b>{{item.Message}}
+    </li>
+    <li>
+        <b> ID:</b> {{item.id}}
+    </li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Display the data here
+<ul>
+    <li ng-repeat="item in data">{{ item.name }} - {{ item.value }}</li>
+</ul>
+
+<script>
+    angular.module('myApp', [])
+        .controller('myController', function ($scope, $http) {
+            // Fetch data from db.json using $http service
+            $http.get('db.json')
+                .then(function (response) {
+                    // Assign the response data to the $scope variable
+                    $scope.data = response.data;
+                })
+                .catch(function (error) {
+                    console.error('Error fetching data:', error);
+                });
+        });
+</script> -->
